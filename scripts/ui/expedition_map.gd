@@ -257,7 +257,7 @@ func _draw_connection_lines() -> void:
 
 			for target_id in node.connections:
 				if not _node_controls.has(target_id):
-					print("[MAP] Target %s not in _node_controls!" % target_id)
+					push_warning("[MAP] Target %s not in _node_controls!" % target_id)
 					continue
 				var to_center: Vector2 = _get_node_center(target_id)
 				line_count += 1

@@ -71,6 +71,14 @@ Beasts are persistent companions summoned from beast cards. They occupy beast sl
 - **Architecture**: Data-driven cards via JSON, battle engine separated from UI
 - **Balance**: Python test suite (126 tests) + RL-tunable parameters
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Credits
+
+See [CREDITS.md](CREDITS.md) for full attribution.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
