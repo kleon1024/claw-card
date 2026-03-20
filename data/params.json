@@ -1,0 +1,30 @@
+{
+  "default_params": {
+    "COMBO_SCALE": 0.1,
+    "VULNERABLE_MULT": 1.5,
+    "ELEMENT_MATCH_BONUS": 1.2,
+    "ELEMENT_COMBO_BONUS": 0.05,
+    "ADAPT_RATE": 0.3
+  },
+  "starter_deck_ids": [
+    "t_strike",
+    "t_strike",
+    "t_defend",
+    "t_defend",
+    "t_quick_draw",
+    "t_void_strike",
+    "t_meditate",
+    "b_ember_fox"
+  ],
+  "constitutional_rules": {
+    "max_damage_per_energy": 8,
+    "max_draw_per_energy": 2,
+    "max_block_per_energy": 9,
+    "min_beast_hp": 3,
+    "max_beast_hp": 15,
+    "max_trigger_bonus_damage": 8,
+    "max_artifact_damage": 30,
+    "max_status_per_card": 3,
+    "power_budget_tolerance": 5.5
+  }
+}

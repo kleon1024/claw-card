@@ -1,0 +1,57 @@
+{
+  "flame_tribe": {
+    "2": {
+      "bonus_damage": 3,
+      "desc": "All attacks +3 damage"
+    },
+    "3": {
+      "bonus_damage": 6,
+      "apply_burn": 1,
+      "desc": "All attacks +6 damage and apply Burn"
+    }
+  },
+  "deep_sea": {
+    "2": {
+      "bonus_draw": 1,
+      "desc": "Draw 1 extra card at turn start"
+    },
+    "3": {
+      "bonus_draw": 2,
+      "heal_per_turn": 2,
+      "desc": "Draw 2 extra, heal 2 per turn"
+    }
+  },
+  "mountain": {
+    "2": {
+      "bonus_block": 4,
+      "desc": "+4 block at turn start"
+    },
+    "3": {
+      "bonus_block": 8,
+      "thorns": 3,
+      "desc": "+8 block, enemies take 3 when attacking"
+    }
+  },
+  "storm": {
+    "2": {
+      "combo_scale_bonus": 0.05,
+      "desc": "Combo multiplier scales 5% faster"
+    },
+    "3": {
+      "combo_scale_bonus": 0.15,
+      "chain_all": true,
+      "desc": "15% faster combo, all Techniques gain Chain"
+    }
+  },
+  "void_born": {
+    "2": {
+      "energy_per_turn": 1,
+      "desc": "+1 energy per turn"
+    },
+    "3": {
+      "energy_per_turn": 1,
+      "void_echo": true,
+      "desc": "+1 energy, Void cards trigger twice"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="Shrimp Travel Claw"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.6")
+
+[autoload]
+
+GameData="*res://scripts/autoloads/game_data.gd"
+AudioManager="*res://scripts/autoloads/audio_manager.gd"
+SettingsManager="*res://scripts/autoloads/settings_manager.gd"
+GameManager="*res://scripts/autoloads/game_manager.gd"
+SaveManager="*res://scripts/autoloads/save_manager.gd"
+ExpeditionManager="*res://scripts/autoloads/expedition_manager.gd"
+DebugRunner="*res://scripts/autoloads/debug_runner.gd"
+
+[debug]
+
+gdscript/warnings/inferred_declaration=1
+gdscript/warnings/unsafe_property_access=1
+gdscript/warnings/unsafe_method_access=1
+gdscript/warnings/unsafe_cast=1
+gdscript/warnings/unsafe_call_argument=1
+gdscript/warnings/return_value_discarded=1
+gdscript/warnings/untyped_declaration=1
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"

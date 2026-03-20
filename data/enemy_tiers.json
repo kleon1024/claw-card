@@ -1,0 +1,20 @@
+{
+  "tier_1": [
+    "slime_scout"
+  ],
+  "tier_2": [
+    "shadow_fox",
+    "frost_mage"
+  ],
+  "tier_3": [
+    "stone_guardian",
+    "flame_brute",
+    "fire_elemental"
+  ],
+  "tier_4": [
+    "region_boss",
+    "forest_boss",
+    "mountain_boss",
+    "volcano_boss"
+  ]
+}

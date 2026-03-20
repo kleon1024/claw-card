@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Verdant Forest",
+    "element_affinity": "fire",
+    "enemy_pool": [
+      "slime_scout",
+      "shadow_fox"
+    ],
+    "boss": "forest_boss",
+    "region_modifiers": {
+      "favored_element": "fire",
+      "damage_mult": 1.0,
+      "block_mult": 1.0
+    },
+    "reward_weights": {
+      "fire": 1.5,
+      "earth": 1.2,
+      "water": 0.8,
+      "lightning": 0.8,
+      "void": 0.7
+    }
+  },
+  {
+    "name": "Stone Peaks",
+    "element_affinity": "earth",
+    "enemy_pool": [
+      "frost_mage",
+      "shadow_fox"
+    ],
+    "boss": "mountain_boss",
+    "region_modifiers": {
+      "favored_element": "earth",
+      "damage_mult": 0.9,
+      "block_mult": 1.2
+    },
+    "reward_weights": {
+      "earth": 1.5,
+      "fire": 0.8,
+      "water": 1.2,
+      "lightning": 0.8,
+      "void": 0.7
+    }
+  },
+  {
+    "name": "Volcanic Caldera",
+    "element_affinity": "lightning",
+    "enemy_pool": [
+      "stone_guardian",
+      "flame_brute"
+    ],
+    "boss": "volcano_boss",
+    "region_modifiers": {
+      "favored_element": "lightning",
+      "damage_mult": 1.1,
+      "block_mult": 0.9
+    },
+    "reward_weights": {
+      "lightning": 1.5,
+      "fire": 1.2,
+      "earth": 0.8,
+      "water": 0.7,
+      "void": 1.0
+    }
+  }
+]

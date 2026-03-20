@@ -1,0 +1,293 @@
+{
+  "slime_scout": {
+    "max_hp": 28,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 4,
+        "weight": 0.6
+      },
+      {
+        "type": "attack",
+        "value": 6,
+        "weight": 0.4
+      }
+    ]
+  },
+  "shadow_fox": {
+    "max_hp": 42,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 7,
+        "weight": 0.3
+      },
+      {
+        "type": "debuff",
+        "value": 1,
+        "weight": 0.2
+      },
+      {
+        "type": "attack",
+        "value": 5,
+        "extra": "discard_1",
+        "weight": 0.25
+      },
+      {
+        "type": "attack",
+        "value": 9,
+        "weight": 0.25
+      }
+    ]
+  },
+  "frost_mage": {
+    "max_hp": 45,
+    "intents": [
+      {
+        "type": "debuff",
+        "value": 1,
+        "weight": 0.2
+      },
+      {
+        "type": "attack",
+        "value": 9,
+        "weight": 0.3
+      },
+      {
+        "type": "defend",
+        "value": 6,
+        "weight": 0.15
+      },
+      {
+        "type": "attack",
+        "value": 7,
+        "weight": 0.2
+      },
+      {
+        "type": "debuff",
+        "value": 2,
+        "weight": 0.15
+      }
+    ]
+  },
+  "stone_guardian": {
+    "max_hp": 72,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 10,
+        "weight": 0.25
+      },
+      {
+        "type": "attack",
+        "value": 14,
+        "weight": 0.15
+      },
+      {
+        "type": "attack",
+        "value": 6,
+        "extra": "multi_hit_2x6",
+        "weight": 0.15
+      },
+      {
+        "type": "defend",
+        "value": 10,
+        "weight": 0.2
+      },
+      {
+        "type": "buff",
+        "value": 3,
+        "weight": 0.25
+      }
+    ]
+  },
+  "flame_brute": {
+    "max_hp": 62,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 10,
+        "weight": 0.35
+      },
+      {
+        "type": "attack",
+        "value": 15,
+        "weight": 0.3
+      },
+      {
+        "type": "buff",
+        "value": 3,
+        "weight": 0.35
+      }
+    ]
+  },
+  "region_boss": {
+    "max_hp": 95,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 12,
+        "weight": 0.3
+      },
+      {
+        "type": "attack",
+        "value": 16,
+        "weight": 0.2
+      },
+      {
+        "type": "defend",
+        "value": 15,
+        "weight": 0.15
+      },
+      {
+        "type": "buff",
+        "value": 3,
+        "weight": 0.15
+      },
+      {
+        "type": "special",
+        "value": 0,
+        "extra": "multi_hit_3x6",
+        "weight": 0.15
+      },
+      {
+        "type": "debuff",
+        "value": 2,
+        "weight": 0.05
+      }
+    ]
+  },
+  "forest_boss": {
+    "max_hp": 85,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 10,
+        "weight": 0.3
+      },
+      {
+        "type": "attack",
+        "value": 14,
+        "weight": 0.2
+      },
+      {
+        "type": "defend",
+        "value": 12,
+        "weight": 0.15
+      },
+      {
+        "type": "buff",
+        "value": 2,
+        "weight": 0.15
+      },
+      {
+        "type": "special",
+        "value": 0,
+        "extra": "multi_hit_2x7",
+        "weight": 0.15
+      },
+      {
+        "type": "debuff",
+        "value": 2,
+        "weight": 0.05
+      }
+    ]
+  },
+  "mountain_boss": {
+    "max_hp": 100,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 12,
+        "weight": 0.25
+      },
+      {
+        "type": "attack",
+        "value": 16,
+        "weight": 0.15
+      },
+      {
+        "type": "defend",
+        "value": 15,
+        "weight": 0.2
+      },
+      {
+        "type": "buff",
+        "value": 3,
+        "weight": 0.2
+      },
+      {
+        "type": "special",
+        "value": 0,
+        "extra": "multi_hit_3x5",
+        "weight": 0.15
+      },
+      {
+        "type": "debuff",
+        "value": 2,
+        "weight": 0.05
+      }
+    ]
+  },
+  "volcano_boss": {
+    "max_hp": 115,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 14,
+        "weight": 0.25
+      },
+      {
+        "type": "attack",
+        "value": 18,
+        "weight": 0.2
+      },
+      {
+        "type": "defend",
+        "value": 12,
+        "weight": 0.1
+      },
+      {
+        "type": "buff",
+        "value": 3,
+        "weight": 0.15
+      },
+      {
+        "type": "special",
+        "value": 0,
+        "extra": "multi_hit_3x6",
+        "weight": 0.2
+      },
+      {
+        "type": "debuff",
+        "value": 3,
+        "weight": 0.1
+      }
+    ]
+  },
+  "fire_elemental": {
+    "max_hp": 55,
+    "intents": [
+      {
+        "type": "attack",
+        "value": 10,
+        "weight": 0.35
+      },
+      {
+        "type": "attack",
+        "value": 14,
+        "weight": 0.25
+      },
+      {
+        "type": "buff",
+        "value": 2,
+        "weight": 0.25
+      },
+      {
+        "type": "debuff",
+        "value": 2,
+        "weight": 0.15
+      }
+    ]
+  }
+}
